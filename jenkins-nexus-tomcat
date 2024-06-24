@@ -1,4 +1,6 @@
 pipeline {
+    // This pipeline downloads the latest snapshot version of a WAR file from a Nexus repository,
+    // and deploys it to a Tomcat server.
     agent any
     environment {
         // Nexus repository credentials

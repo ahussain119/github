@@ -1,4 +1,6 @@
 pipeline {
+    // This pipeline checks out code from a Git repository, builds the project using Maven,
+    // and deploys the built artifact (WAR file and pom.xml) to a Nexus repository.
     agent any
 
     environment {
